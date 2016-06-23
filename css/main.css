@@ -1,0 +1,152 @@
+html, body {
+  /*height: 100%;*/
+  box-sizing: border-box;
+}
+
+.header{
+  font-family: Roboto-Bold;
+  font-size: 20px;
+  color: #000000;
+  line-height: 22px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+
+.container {
+  width: 620px;
+  margin: 0 auto;
+}
+
+.item {
+  display: inline-block;
+  width: 290px;
+  margin-left: 35px;
+}
+
+.item:first-child {
+  margin-left: 0;
+}
+
+.beerjs {
+  height: 430px;
+  border-radius: 10px;
+  background: #F4DE17;
+  background-image: url('../images/beerjs.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 180px;
+}
+
+.info {
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+}
+
+.org {
+  font-family: Roboto-Bold;
+  font-size: 10px;
+  color: #9B9B9B;
+}
+
+.name {
+  font-family: Roboto-Bold;
+  font-size: 14px;
+  color: #000000;
+  line-height: 22px;
+}
+
+.orginfo {
+  display: inline-block;
+  font-family: Roboto-Light;
+  font-size: 14px;
+  color: #000000;
+  line-height: 22px;
+}
+
+.phone {
+  display: inline-block;
+}
+
+.email {
+  display: inline-block;
+  text-decoration: none;
+  font-family: Roboto-Light;
+  font-size: 14px;
+  color: #000000;
+  line-height: 22px;
+  border-bottom: 1px solid rgba(0,0,0,0.20);
+  margin-left: 5px;
+  transition: 0.2s;
+}
+
+.email:hover {
+  border-bottom: 1px solid rgba(0,0,0,1);
+}
+
+.info p {
+  font-family: Roboto-Bold;
+  font-size: 18px;
+  color: #000000;
+  margin-top: 25px;
+}
+
+.link {
+  margin-top: 15px;
+}
+
+.links a {
+  margin-left: 20px;
+}
+
+.links a:first-child {
+  margin-left: 0px;
+}
+
+.links img {
+  vertical-align: text-top;
+}
+
+.vk {
+  width: 22px;
+  height: 13px;
+}
+
+.slack {
+  width: 16px;
+  height: 16px;
+}
+
+.youtube {
+  width: 20px;
+  height: 15px;
+}
+
+
+.frontendmeetup4 {
+  height: 430px;
+  border-radius: 10px;
+  background: #202227;
+  background-image: url('../images/frontendmeetup.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 180px;
+}
+
+@media only screen and (max-width: 625px) {
+  .container {
+    width: 100%;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .item {
+    width: 100%;
+    margin-bottom: 40px;
+    margin-left: 0;
+  }
+}
