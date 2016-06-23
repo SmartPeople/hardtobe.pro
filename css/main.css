@@ -169,6 +169,10 @@ html, body {
     height: 330px;
   }
 
+  .orginfo {
+    margin-bottom: 20px;
+  }
+
   .vk {
     height: 26px;
   }
