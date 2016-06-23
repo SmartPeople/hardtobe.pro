@@ -5,7 +5,7 @@ html, body {
 
 .header{
   font-family: 'Roboto', sans-serif;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 20px;
   color: #000000;
   line-height: 22px;
@@ -50,14 +50,14 @@ html, body {
 
 .org {
   font-family: 'Roboto', sans-serif;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 10px;
   color: #9B9B9B;
 }
 
 .name {
   font-family: 'Roboto', sans-serif;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 14px;
   color: #000000;
   line-height: 22px;
@@ -66,7 +66,7 @@ html, body {
 .orginfo {
   display: inline-block;
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 14px;
   color: #000000;
   line-height: 22px;
@@ -80,7 +80,7 @@ html, body {
   display: inline-block;
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 14px;
   color: #000000;
   line-height: 22px;
@@ -95,7 +95,7 @@ html, body {
 
 .info p {
   font-family: 'Roboto', sans-serif;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 18px;
   color: #000000;
   margin-top: 25px;
@@ -118,17 +118,14 @@ html, body {
 }
 
 .vk {
-  width: 22px;
   height: 13px;
 }
 
 .slack {
-  width: 16px;
   height: 16px;
 }
 
 .youtube {
-  width: 20px;
   height: 15px;
 }
 
@@ -150,10 +147,48 @@ html, body {
     margin-right: 40px;
   }
 
+  .header {
+    font-size: 24px;
+  }
+
   .item {
     width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     margin-left: 0;
+  }
+
+  .beerjs {
+    height: 330px;
+  }
+
+  .frontendmeetup4 {
+    height: 330px;
+  }
+
+  .vk {
+    height: 26px;
+  }
+
+  .slack {
+    height: 26px;
+  }
+
+  .name {
+    margin: 5px 0 15px 0;
+  }
+
+  .phone {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .email {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .youtube {
+    height: 26px;
   }
 }
 
