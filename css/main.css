@@ -9,10 +9,9 @@ html, body {
   color: #000000;
   line-height: 22px;
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 15px;
+  margin-top: 45px;
+  margin-bottom: 30px;
 }
-
 
 .container {
   width: 620px;
@@ -44,6 +43,7 @@ html, body {
 }
 
 .footer {
+  margin-top: 35px;
   text-align: center;
 }
 
@@ -137,7 +137,7 @@ html, body {
   background-size: 100% 180px;
 }
 
-@media only screen and (max-width: 625px) {
+@media only screen and (max-width: 768px) {
   .container {
     width: 100%;
     margin-left: 40px;
@@ -148,5 +148,22 @@ html, body {
     width: 100%;
     margin-bottom: 40px;
     margin-left: 0;
+  }
+}
+
+@media (min-width: 1281px) {
+
+  .header {
+    margin-top: 90px;
+  }
+
+  .footer {
+    margin-top: 90px;
+  }
+
+  .events {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
   }
 }
